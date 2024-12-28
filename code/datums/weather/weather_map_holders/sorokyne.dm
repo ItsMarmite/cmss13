@@ -7,13 +7,12 @@
 	no_weather_turf_icon_state = "strata_clearsky"
 
 	potential_weather_events = list(
-		/datum/weather_event/snow,
-		/datum/weather_event/snowstorm,
-		/datum/weather_event/blizzard,
+/datum/weather_event/hybrisa_light_rain
+/datum/weather_event/hybrisa_very_light_rain
 	)
 
 /datum/weather_ss_map_holder/sorokyne/should_affect_area(area/A)
-	return (A.temperature <= SOROKYNE_TEMPERATURE)
+	return (A.temperature <= TROPICAL_TEMP)
 
 /datum/weather_ss_map_holder/sorokyne/should_start_event()
 	if (prob(PROB_WEATHER_SOROKYNE))

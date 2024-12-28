@@ -2139,13 +2139,6 @@
 /obj/structure/sign/safety/fridge,
 /turf/closed/wall/strata_outpost/reinforced,
 /area/strata/ag/interior/mining_outpost/canteen)
-"aiI" = (
-/obj/structure/machinery/colony_floodlight,
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 6
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/paths/south_outpost)
 "aiJ" = (
 /obj/structure/bed{
 	icon_state = "abed"
@@ -2499,10 +2492,12 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/strata/ag/interior/mining_outpost/maintenance)
-"akG" = (
-/obj/structure/flora/grass/tallgrass/jungle,
-/turf/open/gm/dirt,
-/area/strata/ag/exterior/marsh/center)
+"akB" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/landing_zones/near_lz2)
 "akH" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
@@ -2654,6 +2649,13 @@
 /obj/structure/pipes/vents/pump/on,
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/exterior/outpost_decks)
+"alR" = (
+/obj/structure/machinery/colony_floodlight,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/paths/south_outpost)
 "alV" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_22"
@@ -5238,12 +5240,6 @@
 /obj/effect/landmark/yautja_teleport,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/north_outpost)
-"aAb" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 8
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/paths/north_outpost)
 "aAd" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -5690,6 +5686,12 @@
 /obj/item/stack/sheet/metal/medium_stack,
 /turf/open/floor/strata,
 /area/strata/ug/interior/jungle/structures/ruin)
+"aCu" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/paths/north_outpost)
 "aCv" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
@@ -5761,18 +5763,6 @@
 	},
 /turf/open/asphalt/cement,
 /area/strata/ag/exterior/paths/mining_outpost_exterior)
-"aCN" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer0,
-/area/strata/ag/exterior/paths/south_outpost)
-"aCO" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 5
-	},
-/turf/open/gm/dirt,
-/area/strata/ag/exterior/marsh/center)
 "aCP" = (
 /obj/item/stack/snow,
 /turf/open/auto_turf/snow/brown_base/layer1,
@@ -7695,12 +7685,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/flight_control_exterior)
-"aOW" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 5
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/paths/flight_control_exterior)
 "aOY" = (
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -8698,9 +8682,6 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 5
-	},
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/center)
 "aUY" = (
@@ -8951,6 +8932,12 @@
 	},
 /turf/open/floor/strata,
 /area/strata/ag/exterior/outpost_decks)
+"aWy" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/paths/flight_control_exterior)
 "aWB" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/landmark/objective_landmark/medium,
@@ -9289,12 +9276,6 @@
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ag/interior/outpost/canteen/bar)
-"aZj" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 1
-	},
-/turf/open/gm/dirt,
-/area/strata/ag/interior/mountain)
 "aZn" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/strata/multi_tiles/southwest,
@@ -9479,6 +9460,12 @@
 /obj/item/lightstick/red/planted,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/flight_control_exterior)
+"baw" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/closed/wall/strata_ice/jungle,
+/area/strata/ag/interior/mountain)
 "baA" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -9734,6 +9721,12 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/river)
+"bcA" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/snow/brown_base/layer0,
+/area/strata/ag/exterior/paths/south_outpost)
 "bcB" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/auto_turf/snow/brown_base/layer0,
@@ -9976,13 +9969,6 @@
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/limited,
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/interior/outpost/canteen/bar)
-"bev" = (
-/obj/structure/platform_decoration/metal/strata/west,
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 6
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/caves/shed_five_caves)
 "bex" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/machinery/light{
@@ -10871,10 +10857,10 @@
 /area/strata/ag/interior/outside/administration)
 "bkF" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/landing_zones/near_lz2)
+/area/strata/ag/exterior/caves/shed_five_caves)
 "bkG" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
@@ -10950,12 +10936,6 @@
 	},
 /turf/open/floor/strata,
 /area/strata/ag/interior/landing_zones/near_lz1)
-"blk" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 4
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/caves/shed_five_caves)
 "bll" = (
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/outpost/admin)
@@ -11212,7 +11192,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
 	},
-/turf/closed/wall/strata_ice/jungle,
+/turf/open/gm/dirt,
 /area/strata/ag/interior/mountain)
 "bnc" = (
 /obj/structure/largecrate/random/barrel/red,
@@ -11221,6 +11201,12 @@
 "bnd" = (
 /turf/closed/wall/resin/strata/on_tiles,
 /area/strata/ug/interior/jungle/structures/research/old_tunnels)
+"bng" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/marsh/center)
 "bnm" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
@@ -11525,6 +11511,10 @@
 	},
 /turf/open/floor/strata/white_cyan1/east,
 /area/strata/ag/interior/outpost/canteen)
+"boI" = (
+/obj/structure/flora/grass/tallgrass/jungle,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/paths/south_outpost)
 "boM" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -11826,10 +11816,6 @@
 /obj/effect/decal/cleanable/blood{
 	icon_state = "xgib2"
 	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/paths/south_outpost)
-"bqy" = (
-/obj/structure/flora/grass/tallgrass/jungle,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "bqz" = (
@@ -12189,18 +12175,6 @@
 /obj/item/storage/pill_bottle/russianRed,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
-"bto" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 8
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/marsh/water_marshes)
-"bts" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 8
-	},
-/turf/open/auto_turf/strata_grass/layer1,
-/area/strata/ag/exterior/marsh/center)
 "btv" = (
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
@@ -12545,6 +12519,12 @@
 /obj/structure/machinery/vending/cigarette/colony,
 /turf/open/floor/strata/blue1,
 /area/strata/ag/interior/outpost/admin)
+"bvn" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/marsh/water_marshes)
 "bvq" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/strata,
@@ -18999,7 +18979,6 @@
 /area/strata/ag/exterior/marsh/relay_marshes)
 "ftr" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/flora/grass/tallgrass/jungle,
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/center)
 "ftO" = (
@@ -21085,12 +21064,6 @@
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/strata/red1,
 /area/strata/ag/interior/outside/checkpoints/north_armor)
-"imZ" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	dir = 5
-	},
-/turf/open/gm/dirt,
-/area/strata/ag/exterior/marsh/spring_marshes)
 "ing" = (
 /obj/structure/platform/stone/strata/north,
 /obj/structure/platform/stone/strata/east,
@@ -23572,6 +23545,12 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/platform/south)
+"lQu" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 5
+	},
+/turf/open/gm/dirt,
+/area/strata/ag/exterior/marsh/spring_marshes)
 "lQT" = (
 /obj/structure/machinery/weather_siren{
 	dir = 4;
@@ -24957,6 +24936,13 @@
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ug/interior/outpost/underground_dorms/med2)
+"nTS" = (
+/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/strata/ag/exterior/caves/shed_five_caves)
 "nUh" = (
 /obj/effect/landmark/queen_spawn,
 /turf/open/floor/strata/fake_wood,
@@ -27470,6 +27456,11 @@
 /obj/structure/platform/metal/strata,
 /turf/open/gm/river,
 /area/strata/ag/exterior/outpost_decks)
+"rgH" = (
+/obj/structure/flora/grass/tallgrass/jungle,
+/obj/structure/flora/grass/tallgrass/jungle,
+/turf/open/gm/dirt,
+/area/strata/ag/exterior/marsh/center)
 "rhg" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -29004,6 +28995,15 @@
 /obj/structure/flora/grass/ice/brown/snowgrassbb_3,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
+"trg" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 5
+	},
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 5
+	},
+/turf/open/gm/dirt,
+/area/strata/ag/exterior/marsh/center)
 "trr" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/floor/strata/multi_tiles,
@@ -34366,10 +34366,10 @@ bgS
 oQv
 bgS
 qxD
-bto
-bto
-bto
-bto
+bvn
+bvn
+bvn
+bvn
 bfq
 buG
 qPu
@@ -37513,7 +37513,7 @@ bme
 bTs
 bTs
 tYF
-aUX
+trg
 jER
 pqH
 bTs
@@ -38051,7 +38051,7 @@ bfq
 hir
 bTs
 bTs
-aZj
+bna
 qPu
 qPu
 bfq
@@ -38197,7 +38197,7 @@ qRl
 smV
 hVY
 cJy
-imZ
+lQu
 sGb
 scA
 wGS
@@ -38386,7 +38386,7 @@ ttd
 rGp
 bta
 bTs
-bts
+bng
 bme
 bme
 bme
@@ -38560,7 +38560,7 @@ brK
 stb
 bme
 bqA
-bts
+bng
 bme
 bme
 bme
@@ -38751,9 +38751,9 @@ bTs
 bTs
 bTs
 bTs
-bkF
-bkF
-bkF
+akB
+akB
+akB
 bvC
 hPr
 hPr
@@ -38900,9 +38900,9 @@ hpe
 bTs
 bTs
 bTs
-akG
+ftr
 boE
-akG
+ftr
 bTs
 bTs
 bTs
@@ -39074,7 +39074,7 @@ nAz
 qUB
 bTs
 bTs
-akG
+ftr
 rGp
 rGp
 rbO
@@ -39424,8 +39424,8 @@ mtq
 tFA
 tFA
 bTs
-akG
-aCO
+ftr
+aUX
 rGp
 rGp
 wrw
@@ -39599,7 +39599,7 @@ mtq
 tFA
 tFA
 bTs
-bts
+bng
 nSJ
 rGp
 mvE
@@ -39608,7 +39608,7 @@ bTs
 hAq
 qxp
 rbO
-ftr
+rgH
 btc
 bme
 ble
@@ -39619,8 +39619,8 @@ bme
 bme
 bme
 bTs
-akG
-akG
+ftr
+ftr
 bTs
 xTU
 xTU
@@ -39780,7 +39780,7 @@ rGp
 rbO
 qxD
 bTs
-aCO
+aUX
 gmA
 gWG
 rbO
@@ -39794,8 +39794,8 @@ ble
 bme
 bme
 bTs
-akG
-akG
+ftr
+ftr
 bTs
 bvJ
 xTU
@@ -39933,7 +39933,7 @@ aZc
 aZc
 bTs
 bTs
-imZ
+lQu
 sGb
 sGb
 tFA
@@ -40134,7 +40134,7 @@ bme
 rGp
 ssb
 mvE
-aCO
+aUX
 rGp
 bme
 ble
@@ -40284,7 +40284,7 @@ bTs
 bTs
 bTs
 iZR
-imZ
+lQu
 tFA
 bgT
 tFA
@@ -40829,7 +40829,7 @@ tDo
 btd
 rGp
 mvE
-aCO
+aUX
 bme
 ble
 ble
@@ -41005,7 +41005,7 @@ rGp
 rGp
 xPz
 fKi
-aCO
+aUX
 bme
 bme
 ble
@@ -41180,8 +41180,8 @@ rGp
 tKx
 mty
 jiw
-akG
-aCO
+ftr
+aUX
 bme
 ble
 ble
@@ -41354,7 +41354,7 @@ rGp
 mSp
 aTu
 mvE
-akG
+ftr
 boE
 boE
 bme
@@ -41528,7 +41528,7 @@ bme
 rGp
 mvE
 tYF
-akG
+ftr
 boE
 bme
 bme
@@ -42367,7 +42367,7 @@ aTg
 aQI
 aVi
 aVv
-aOW
+aWy
 bhy
 bkt
 bnG
@@ -43046,7 +43046,7 @@ bTs
 bTs
 bTs
 bTs
-aOW
+aWy
 aZP
 aKV
 bTs
@@ -43986,7 +43986,7 @@ tFA
 tFA
 tFA
 lOJ
-imZ
+lQu
 cJy
 iZR
 bTs
@@ -44481,7 +44481,7 @@ coB
 coB
 coB
 aTV
-aOW
+aWy
 bbj
 aZP
 aZP
@@ -44851,8 +44851,8 @@ rjn
 khh
 vtl
 dOO
-bqy
-aCN
+boI
+bcA
 blJ
 bmD
 bmD
@@ -45206,7 +45206,7 @@ bpy
 blJ
 blJ
 brC
-bqy
+boI
 bTs
 bTs
 bTs
@@ -46203,7 +46203,7 @@ eAz
 aac
 aac
 aac
-aOW
+aWy
 bbj
 vYf
 bbj
@@ -46562,7 +46562,7 @@ oOB
 foN
 iLJ
 aac
-aOW
+aWy
 bbj
 bbj
 aZP
@@ -47120,9 +47120,9 @@ biB
 bfd
 bjW
 bTs
-bna
+baw
 bkG
-blk
+bkF
 bTs
 bTs
 bTs
@@ -47298,7 +47298,7 @@ bki
 bki
 lgn
 bkH
-bna
+baw
 bTs
 bTs
 bpc
@@ -47474,7 +47474,7 @@ bfd
 bfd
 bfc
 bfd
-bna
+baw
 bTs
 bpd
 bpT
@@ -48344,9 +48344,9 @@ hUp
 hUp
 hUp
 cuT
-bev
-blk
-blk
+nTS
+bkF
+bkF
 blm
 bPy
 bmD
@@ -48809,8 +48809,8 @@ aac
 aac
 aFV
 aFV
-aAb
-aAb
+aCu
+aCu
 ayw
 ayw
 aHh
@@ -48982,8 +48982,8 @@ ayv
 ayw
 aHh
 aac
-aAb
-aAb
+aCu
+aCu
 ayw
 ayw
 ayw
@@ -50037,7 +50037,7 @@ iLr
 iLr
 cdb
 aFV
-aAb
+aCu
 ayw
 ayw
 aHh
@@ -51085,7 +51085,7 @@ iLr
 iLr
 iLr
 vdi
-aAb
+aCu
 aHh
 aHh
 aHh
@@ -51507,7 +51507,7 @@ blJ
 bmD
 brp
 brC
-bqy
+boI
 bTs
 bTs
 bTs
@@ -51856,7 +51856,7 @@ blJ
 bmD
 bpT
 bry
-bqy
+boI
 bTs
 bTs
 bTs
@@ -52376,7 +52376,7 @@ blJ
 bnD
 blJ
 blJ
-aiI
+alR
 bqg
 bmD
 tMP
@@ -53428,8 +53428,8 @@ tUN
 bTs
 bTs
 bTs
-bqy
-bqy
+boI
+boI
 bTs
 bTs
 bTs
@@ -53530,7 +53530,7 @@ eXK
 axk
 axk
 axk
-aAb
+aCu
 ayw
 ayw
 ayw
@@ -54054,7 +54054,7 @@ cdA
 aOv
 ajN
 cdA
-aAb
+aCu
 ayw
 ayw
 ayw
