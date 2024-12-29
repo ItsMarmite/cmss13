@@ -5,9 +5,6 @@
 	icon_state = "pwall"
 	},
 /area/space)
-"aac" = (
-/turf/closed/wall/strata_ice/dirty,
-/area/strata/ag/interior/mountain)
 "aad" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/strata/ug/interior)
@@ -2506,7 +2503,9 @@
 /area/strata/ag/exterior/paths/far_north_outpost)
 "akJ" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "akK" = (
@@ -8425,9 +8424,13 @@
 "aTu" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "aTy" = (
@@ -9051,7 +9054,7 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/maint)
 "aXl" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "aXn" = (
@@ -13869,8 +13872,12 @@
 /area/strata/ag/interior/outside/bball)
 "bJv" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "bJy" = (
@@ -14055,7 +14062,7 @@
 /area/strata/ag/interior/outpost/engi/drome)
 "bLj" = (
 /obj/structure/floodgate,
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/strata_ice/jungle,
 /area/strata/ag/exterior/paths/north_outpost)
 "bLo" = (
 /turf/open/floor/strata/multi_tiles/southeast,
@@ -14114,7 +14121,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
 	},
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -14610,7 +14617,9 @@
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ag/interior/mining_outpost/central)
 "bUQ" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/flight_control_exterior)
 "bUU" = (
@@ -14685,7 +14694,9 @@
 /turf/open/floor/strata/red1,
 /area/strata/ag/interior/outpost/security)
 "bVu" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/center)
 "bVx" = (
@@ -14878,7 +14889,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/structures/research/old_tunnels)
 "bXI" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "bXO" = (
@@ -15313,7 +15324,7 @@
 /area/strata/ag/interior/outpost/canteen)
 "cdl" = (
 /obj/structure/floodgate,
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/strata_ice/jungle,
 /area/strata/ag/interior/outside/bball)
 "cdm" = (
 /turf/closed/wall/strata_outpost/reinforced,
@@ -16478,9 +16489,15 @@
 /area/strata/ag/exterior/caves/lz_caves)
 "cro" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "crp" = (
@@ -17151,7 +17168,9 @@
 /turf/open/floor/strata/white_cyan1/east,
 /area/strata/ag/interior/outpost/canteen)
 "cOk" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -17205,8 +17224,12 @@
 "cTE" = (
 /obj/structure/largecrate/random,
 /obj/item/storage/belt/utility/full,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/river)
 "cTL" = (
@@ -17256,7 +17279,7 @@
 /area/strata/ag/interior/outside/bball/cave)
 "cVW" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "cWs" = (
@@ -17431,7 +17454,7 @@
 /turf/open/floor/strata/floor2,
 /area/strata/ug/interior/jungle/structures/monitoring)
 "djW" = (
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/strata_ice/jungle,
 /area/strata/ag/exterior/paths/north_outpost)
 "dkp" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -17518,7 +17541,9 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/ug/interior/jungle/structures/research)
 "dqZ" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "drI" = (
@@ -17539,8 +17564,8 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/outpost/engi/drome)
 "dsS" = (
-/obj/structure/platform_decoration/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/west,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -17631,7 +17656,7 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outpost/med)
 "dAs" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "dAV" = (
@@ -17792,7 +17817,9 @@
 "dNg" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "dNq" = (
@@ -17816,7 +17843,9 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -17846,7 +17875,9 @@
 /area/strata/ug/interior/jungle/structures/research/hot_springs)
 "dPu" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "dQi" = (
@@ -17906,7 +17937,7 @@
 "dTI" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "dTN" = (
@@ -18030,8 +18061,12 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/interior/landing_zones/near_lz1)
@@ -18157,7 +18192,7 @@
 /area/strata/ag/exterior/outpost_decks)
 "emu" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "emU" = (
@@ -18260,7 +18295,9 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/canteen)
 "exj" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "exl" = (
@@ -18318,8 +18355,12 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/canteen)
 "ezj" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
@@ -18329,7 +18370,9 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "ezG" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "ezK" = (
@@ -18379,8 +18422,12 @@
 /area/strata/ag/interior/outpost/maint)
 "eCS" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "eCZ" = (
@@ -18540,8 +18587,12 @@
 /area/strata/ag/exterior/outpost_decks)
 "eKB" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/crash)
 "eLF" = (
@@ -18557,7 +18608,9 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/exterior/vanyard)
 "eNa" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "eNz" = (
@@ -18633,7 +18686,9 @@
 /turf/open/floor/strata/white_cyan3/southwest,
 /area/strata/ag/interior/outpost/med)
 "eQo" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -18769,13 +18824,19 @@
 "fax" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "fbq" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
@@ -19047,8 +19108,12 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/canteen)
 "fwT" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
 "fwV" = (
@@ -19086,7 +19151,9 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/flight_control_exterior)
 "fzl" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "fzn" = (
@@ -19172,8 +19239,12 @@
 "fDw" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "fEs" = (
@@ -19199,7 +19270,9 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "fGs" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "fGG" = (
@@ -19209,7 +19282,9 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outpost/engi/drome)
 "fHa" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "fHZ" = (
@@ -19252,8 +19327,12 @@
 "fKi" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "fKt" = (
@@ -19344,8 +19423,12 @@
 /turf/open/asphalt/cement/cement14,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
 "fOY" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
@@ -19526,8 +19609,12 @@
 "gcc" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "gcj" = (
@@ -19649,7 +19736,9 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/canteen)
 "gjw" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
@@ -19711,8 +19800,10 @@
 "gmA" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "gmB" = (
@@ -19769,15 +19860,21 @@
 /area/strata/ag/interior/outpost/engi/drome)
 "gqJ" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "gqV" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -19805,8 +19902,12 @@
 /turf/open/floor/strata/red1,
 /area/strata/ag/interior/outpost/security)
 "grL" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "grP" = (
@@ -19814,7 +19915,7 @@
 /turf/open/floor/strata/white_cyan1/east,
 /area/strata/ag/interior/outpost/canteen/bar)
 "gsQ" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "gto" = (
@@ -19893,15 +19994,19 @@
 "gzM" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "gAm" = (
 /turf/open/floor/strata/fake_wood,
 /area/strata/ag/interior/outpost/security)
 "gAt" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "gAv" = (
@@ -19938,8 +20043,8 @@
 /turf/closed/wall/strata_outpost/reinforced,
 /area/strata/ag/interior/restricted)
 "gEN" = (
-/obj/structure/platform_decoration/stone/strata/east,
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/east,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "gFf" = (
@@ -20144,7 +20249,7 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/mining_outpost/south_dormitories)
 "gUM" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "gUP" = (
@@ -20174,8 +20279,12 @@
 "gWG" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "gXu" = (
@@ -20202,8 +20311,12 @@
 /area/strata/ag/exterior/paths/south_outpost)
 "gZI" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "gZP" = (
@@ -20263,8 +20376,12 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/strata/ag/interior/outpost/engi)
 "hcz" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "hcF" = (
@@ -20289,7 +20406,9 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ug/interior/outpost/underground_dorms/sec1)
 "heA" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/center)
 "heL" = (
@@ -20462,7 +20581,7 @@
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ag/interior/outpost/canteen)
 "hrF" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/dirt,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "hsg" = (
@@ -20473,7 +20592,9 @@
 /area/strata/ug/interior/jungle/structures/monitoring)
 "hsq" = (
 /obj/item/lightstick/red/planted,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/vanyard)
 "hsV" = (
@@ -20513,7 +20634,9 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/admin1)
 "hxj" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "hyu" = (
@@ -20529,7 +20652,9 @@
 "hAq" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "hAw" = (
@@ -20640,8 +20765,12 @@
 /turf/open/asphalt/cement/cement12,
 /area/strata/ag/exterior/paths/north_outpost)
 "hKf" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "hLc" = (
@@ -20659,7 +20788,7 @@
 /turf/open/asphalt/cement,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
 "hLX" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "hMs" = (
@@ -20702,7 +20831,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/structures/monitoring/south)
 "hNP" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "hOa" = (
@@ -20820,8 +20949,12 @@
 /turf/open/floor/strata/red1,
 /area/strata/ag/interior/outpost/security)
 "hVY" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "hWk" = (
@@ -20876,8 +21009,12 @@
 /turf/open/floor/strata/blue1,
 /area/strata/ag/interior/outpost/canteen)
 "iaL" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -20904,7 +21041,9 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "ibP" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "icf" = (
@@ -20987,7 +21126,9 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/strata/ug/interior/outpost/underground_dorms/sec1)
 "ieu" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
 	},
@@ -21065,8 +21206,12 @@
 /turf/open/floor/strata/red1,
 /area/strata/ag/interior/outside/checkpoints/north_armor)
 "ing" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "ioa" = (
@@ -21160,7 +21305,9 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/checkpoints/north)
 "isx" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "isY" = (
@@ -21221,7 +21368,9 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/strata/ug/interior/outpost/underground_dorms/admin3)
 "ivW" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/river)
 "ivY" = (
@@ -21291,7 +21440,7 @@
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "iAQ" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "iBM" = (
@@ -21420,7 +21569,7 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/strata/ag/exterior/outpost_decks)
 "iMd" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/vanyard)
 "iMn" = (
@@ -21460,7 +21609,9 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "iOF" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "iPd" = (
@@ -21497,7 +21648,9 @@
 /area/strata/ag/interior/outpost/canteen)
 "iQb" = (
 /obj/item/lightstick/red/planted,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/vanyard)
 "iQi" = (
@@ -21544,7 +21697,9 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/outpost/admin)
 "iTu" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "iTC" = (
@@ -21554,7 +21709,9 @@
 "iTW" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "iUj" = (
@@ -21736,8 +21893,12 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/mining_outpost/central)
 "jfo" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -21771,8 +21932,8 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/strata/ug/interior/jungle/platform/east)
 "jhI" = (
-/obj/structure/platform_decoration/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/west,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -21782,8 +21943,12 @@
 "jiw" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "jiH" = (
@@ -21835,7 +22000,9 @@
 "jkU" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "jmx" = (
@@ -21884,8 +22051,12 @@
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ag/interior/outpost/canteen)
 "jpY" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "jqg" = (
@@ -21909,7 +22080,9 @@
 /turf/open/gm/dirt,
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "jsc" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "jsd" = (
@@ -21933,8 +22106,12 @@
 /area/strata/ag/interior/outside/engineering/parts_storage_cave)
 "jsx" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/crash)
 "jsW" = (
@@ -22001,7 +22178,7 @@
 /turf/closed/wall/wood,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "jAW" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/vanyard)
 "jBc" = (
@@ -22059,7 +22236,9 @@
 "jER" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "jEW" = (
@@ -22219,7 +22398,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/platform/south)
 "jQj" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "jQx" = (
@@ -22375,8 +22554,12 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
 	},
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -22481,11 +22664,15 @@
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "kkL" = (
-/turf/closed/wall/strata_ice/dirty,
+/turf/closed/wall/strata_ice/jungle,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "klv" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -22547,7 +22734,7 @@
 /area/strata/ag/interior/outpost/engi/drome)
 "krT" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "ksj" = (
@@ -22559,21 +22746,33 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/admin)
 "ksV" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "ksX" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "kuc" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -22639,7 +22838,9 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/strata/ug/interior/jungle/platform/east)
 "kBo" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "kBL" = (
@@ -22702,8 +22903,12 @@
 /area/strata/ag/exterior/marsh/spring_marshes)
 "kHG" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "kIl" = (
@@ -22749,8 +22954,12 @@
 "kKx" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "kKI" = (
@@ -22791,8 +23000,12 @@
 "kOo" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "kOr" = (
@@ -22829,8 +23042,12 @@
 "kRH" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "kRI" = (
@@ -22963,9 +23180,15 @@
 "lbm" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "lbW" = (
@@ -23137,11 +23360,13 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/strata/ug/interior/jungle/platform/south)
 "lot" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "loC" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
 "loN" = (
@@ -23184,8 +23409,12 @@
 /area/strata/ug/interior/outpost/underground_dorms/admin3)
 "lpB" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "lqD" = (
@@ -23294,9 +23523,15 @@
 "lyI" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "lyX" = (
@@ -23351,7 +23586,7 @@
 "lDd" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "lDF" = (
@@ -23392,8 +23627,12 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "lFZ" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -23441,8 +23680,12 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
 "lJD" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "lJF" = (
@@ -23467,7 +23710,9 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/sec1)
 "lKA" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "lLw" = (
@@ -23626,7 +23871,7 @@
 /turf/open/floor/strata,
 /area/strata/ag/exterior/outpost_decks)
 "lUF" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -23789,7 +24034,7 @@
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ag/interior/mining_outpost/canteen)
 "mgV" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "mhc" = (
@@ -23971,19 +24216,27 @@
 "mte" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water_marshes)
 "mtq" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "mty" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "mtL" = (
@@ -24183,7 +24436,9 @@
 /turf/open/floor/prison/darkredfull2,
 /area/strata/ag/interior/outside/checkpoints/south)
 "mLo" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/shed_five_caves)
 "mLW" = (
@@ -24273,15 +24528,23 @@
 /area/strata/ug/interior/jungle/structures/monitoring)
 "mRS" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "mSp" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "mSH" = (
@@ -24372,7 +24635,7 @@
 /turf/open/floor/strata/blue1,
 /area/strata/ug/interior/outpost/underground_dorms/med1)
 "mZh" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "nai" = (
@@ -24412,9 +24675,15 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "neE" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -24433,7 +24702,9 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/ag/interior/outpost/med)
 "nfV" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -24443,8 +24714,12 @@
 /turf/open/gm/river,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "nis" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "niD" = (
@@ -24631,8 +24906,10 @@
 /area/strata/ag/interior/outpost/engi)
 "nvH" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "nwv" = (
@@ -24694,7 +24971,9 @@
 /turf/open/gm/coast/beachcorner2/south_west,
 /area/strata/ug/interior/jungle/carplake/east)
 "nAz" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "nAV" = (
@@ -24709,7 +24988,9 @@
 "nBe" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "nBx" = (
@@ -24807,8 +25088,10 @@
 "nGM" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "nIS" = (
@@ -24849,14 +25132,18 @@
 /area/strata/ug/interior/jungle/platform/east)
 "nLW" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "nLZ" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "nMO" = (
@@ -25034,7 +25321,7 @@
 "nZu" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/structure/platform/metal/strata/east,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "nZz" = (
@@ -25162,8 +25449,12 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/strata/ag/interior/outpost/engi)
 "ogB" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "ogL" = (
@@ -25174,7 +25465,7 @@
 /turf/open/floor/strata/purp2,
 /area/strata/ug/interior/jungle/structures/monitoring)
 "ohf" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "ohV" = (
@@ -25202,8 +25493,12 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/strata/ag/interior/mining_outpost/central)
 "okz" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -25219,7 +25514,9 @@
 	},
 /area/strata/ag/exterior/marsh/crash)
 "okW" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/center)
 "olh" = (
@@ -25229,8 +25526,12 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "olk" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/river)
 "oln" = (
@@ -25244,9 +25545,15 @@
 "olo" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "olH" = (
@@ -25318,8 +25625,12 @@
 "orV" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "orW" = (
@@ -25471,7 +25782,7 @@
 /turf/open/floor/plating/asteroidwarning,
 /area/strata/ag/exterior/landing_zones/lz2)
 "oGQ" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -25558,7 +25869,9 @@
 /turf/open/asphalt/cement/cement1,
 /area/strata/ag/exterior/outpost_decks)
 "oLp" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
 "oLv" = (
@@ -25573,7 +25886,9 @@
 /turf/open/asphalt/cement/cement12,
 /area/strata/ug/interior/outpost/platform)
 "oMx" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "oMX" = (
@@ -25699,11 +26014,13 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/admin)
 "oTt" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "oUt" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -25828,7 +26145,9 @@
 /area/strata/ag/exterior/outpost_decks)
 "pcD" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pdc" = (
@@ -25876,8 +26195,12 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/admin3)
 "phP" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "pil" = (
@@ -25926,8 +26249,8 @@
 /area/strata/ug/interior/jungle/platform/south)
 "pjH" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/east,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/east,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "pjQ" = (
@@ -26035,7 +26358,9 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ug/interior/outpost/underground_dorms/med2)
 "poG" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/item/lightstick/red/planted,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/river)
@@ -26193,13 +26518,13 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ug/interior)
 "pAr" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "pAF" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "pAR" = (
@@ -26221,12 +26546,18 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pBW" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pDa" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pDb" = (
@@ -26292,7 +26623,9 @@
 /turf/open/floor/plating/platebot,
 /area/strata/ag/interior/outpost/engi/drome/shuttle)
 "pFm" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pFV" = (
@@ -26347,8 +26680,12 @@
 /area/strata/ag/exterior/paths/mining_outpost_exterior)
 "pJr" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "pJA" = (
@@ -26472,8 +26809,12 @@
 "pTP" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water_marshes)
 "pUB" = (
@@ -26572,7 +26913,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/platform/south)
 "pZZ" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "qaq" = (
@@ -26778,7 +27119,9 @@
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "qow" = (
 /obj/effect/decal/cleanable/blood,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
 "qoD" = (
@@ -26809,8 +27152,12 @@
 /turf/open/floor/strata/blue3/southwest,
 /area/strata/ag/interior/outpost/admin)
 "qrb" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "qrz" = (
@@ -26834,7 +27181,9 @@
 /area/strata/ug/interior/jungle/structures/monitoring)
 "qsY" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -26898,8 +27247,10 @@
 "qxp" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "qxr" = (
@@ -26964,7 +27315,9 @@
 /area/strata/ug/interior/outpost/underground_dorms/sec2)
 "qAX" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "qBd" = (
@@ -26982,7 +27335,9 @@
 /area/strata/ag/interior/outpost/admin)
 "qBQ" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/structure/platform/metal/strata/west,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -27049,7 +27404,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/ag/interior/outpost/med)
 "qIG" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "qJi" = (
@@ -27067,7 +27422,9 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/strata/ag/interior/outpost/canteen)
 "qKk" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/structure/flora/grass/tallgrass/jungle,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
@@ -27116,9 +27473,15 @@
 /area/strata/ag/exterior/outpost_decks)
 "qNX" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "qOj" = (
@@ -27162,7 +27525,9 @@
 /area/strata/ag/exterior/marsh/water_marshes)
 "qPA" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "qPN" = (
@@ -27205,7 +27570,7 @@
 /turf/open/floor/strata/blue1,
 /area/strata/ag/interior/outpost/admin)
 "qRl" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "qSc" = (
@@ -27265,7 +27630,9 @@
 /area/strata/ag/exterior/vanyard)
 "qUq" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/structure/platform/metal/strata/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -27381,7 +27748,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "raG" = (
@@ -27419,7 +27786,7 @@
 /area/strata/ag/exterior/outpost_decks)
 "rdL" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "rel" = (
@@ -27523,8 +27890,12 @@
 /turf/open/asphalt/cement/cement4,
 /area/strata/ug/interior/outpost/platform)
 "rkU" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "rmT" = (
@@ -27583,7 +27954,9 @@
 /turf/open/asphalt/cement/cement4,
 /area/strata/ug/interior/outpost/platform)
 "rqs" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "rqL" = (
@@ -27615,7 +27988,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/effect/decal/cleanable/blood,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -27626,7 +27999,9 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/interior/outside/checkpoints/north_armor)
 "rus" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "ruM" = (
@@ -27737,7 +28112,9 @@
 /area/strata/ag/interior/outpost/canteen)
 "rBp" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/north_outpost)
 "rCl" = (
@@ -27807,7 +28184,9 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "rHX" = (
@@ -27838,7 +28217,9 @@
 /area/strata/ag/exterior/marsh/spring_marshes)
 "rJu" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "rJJ" = (
@@ -27967,7 +28348,7 @@
 /area/strata/ag/interior/outside/checkpoints/outpost)
 "rTj" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "rTC" = (
@@ -27975,11 +28356,15 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/interior/outpost/engi/drome)
 "rTL" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "rTR" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/dirt,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "rUn" = (
@@ -27992,7 +28377,9 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ug/interior/jungle/tearlake)
 "rWc" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "rWk" = (
@@ -28098,13 +28485,19 @@
 /area/strata/ag/interior/outpost/engi)
 "scA" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "scZ" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "seb" = (
@@ -28165,7 +28558,9 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/ug/interior/outpost/platform)
 "shA" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/structure/platform/metal/strata/west,
 /turf/open/gm/river,
@@ -28220,7 +28615,7 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/strata/ag/exterior/landing_zones/lz2)
 "skM" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "skT" = (
@@ -28250,7 +28645,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/platform/south)
 "smV" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "snV" = (
@@ -28266,8 +28661,12 @@
 /area/strata/ug/interior/jungle/structures/research)
 "sop" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "sot" = (
@@ -28314,9 +28713,15 @@
 "ssb" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "ssd" = (
@@ -28337,7 +28742,7 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/exterior/vanyard)
 "stb" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/center)
 "stf" = (
@@ -28359,14 +28764,18 @@
 /obj/structure/largecrate/random/secure{
 	layer = 3.1
 	},
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
 "swQ" = (
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/checkpoints/south)
 "sxe" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -28472,8 +28881,12 @@
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/interior/landing_zones/near_lz1)
@@ -28517,7 +28930,9 @@
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "sHN" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "sHP" = (
@@ -28625,8 +29040,12 @@
 /area/strata/ug/interior/jungle/structures/monitoring)
 "sRw" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "sRz" = (
@@ -28641,7 +29060,9 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/structures/monitoring/west)
 "sRV" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "sRX" = (
@@ -28915,7 +29336,9 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "tkX" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -28965,7 +29388,9 @@
 /turf/open/floor/strata/white_cyan2/west,
 /area/strata/ug/interior/outpost/underground_dorms/admin1)
 "tnp" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -29013,7 +29438,9 @@
 /turf/open/floor/almayer/plate,
 /area/strata/ug/interior/jungle/structures/research)
 "tsp" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
@@ -29025,11 +29452,13 @@
 /turf/open/floor/strata/orange_edge/west,
 /area/strata/ag/exterior/outpost_decks)
 "ttd" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/center)
 "ttk" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "ttQ" = (
@@ -29054,7 +29483,9 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "tuV" = (
@@ -29096,13 +29527,15 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/landing_zones/near_lz1)
 "tAi" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "tAH" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "tBc" = (
@@ -29115,7 +29548,9 @@
 /area/strata/ag/interior/outpost/engi)
 "tBi" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/center)
 "tBn" = (
@@ -29155,17 +29590,27 @@
 "tDw" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "tDH" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "tDU" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -29179,7 +29624,9 @@
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "tEq" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "tEC" = (
@@ -29274,9 +29721,15 @@
 "tKx" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "tKA" = (
@@ -29346,7 +29799,9 @@
 /turf/open/asphalt/cement/cement14,
 /area/strata/ug/interior/outpost/platform)
 "tOi" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "tOA" = (
@@ -29442,7 +29897,9 @@
 /turf/open/floor/strata/fake_wood,
 /area/strata/ag/interior/outside/bball)
 "tVd" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
@@ -29453,7 +29910,9 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/interior/outpost/engi/drome)
 "tVB" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -29628,8 +30087,12 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/interior/outpost/engi/drome)
 "ufk" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "ufG" = (
@@ -29760,14 +30223,18 @@
 "unP" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/west,
-/obj/structure/platform_decoration/stone/strata,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/west,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "uoB" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
 "uoP" = (
@@ -29872,7 +30339,7 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/outpost/med)
 "uyb" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -29916,8 +30383,12 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "uBv" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/structure/platform/metal/strata/east,
 /turf/open/gm/river,
@@ -29992,8 +30463,12 @@
 "uFt" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "uFT" = (
@@ -30080,7 +30555,9 @@
 /turf/open/floor/strata/purp2,
 /area/strata/ug/interior/jungle/structures/monitoring)
 "uLF" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "uLJ" = (
@@ -30353,7 +30830,7 @@
 /turf/open/floor/strata,
 /area/strata/ag/interior/outpost/engi/drome)
 "vhz" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "vhG" = (
@@ -30405,7 +30882,9 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/interior/outpost/med)
 "vlu" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "vlC" = (
@@ -30423,7 +30902,7 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/strata/ag/interior/mountain)
 "vmk" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/caves/lz_caves)
 "vmm" = (
@@ -30435,7 +30914,7 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "vmo" = (
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -30461,7 +30940,7 @@
 /area/strata/ug/interior/outpost/platform)
 "voK" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/vanyard)
 "vpi" = (
@@ -30544,7 +31023,7 @@
 "vsR" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "vsT" = (
@@ -30620,9 +31099,15 @@
 "vwg" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "vwn" = (
@@ -30650,7 +31135,7 @@
 /turf/closed/wall/strata_outpost,
 /area/strata/ag/interior/outside/engineering/parts_storage)
 "vxC" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -30721,7 +31206,9 @@
 "vDU" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "vEp" = (
@@ -30918,13 +31405,19 @@
 	},
 /area/strata/ag/exterior/marsh/crash)
 "vQM" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
 "vRO" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "vRP" = (
@@ -30957,11 +31450,11 @@
 /turf/open/floor/strata/floor3,
 /area/strata/ag/interior/outpost/med)
 "vUM" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/river)
 "vUP" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/water)
@@ -31022,7 +31515,9 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ug/interior/jungle/structures/monitoring/south)
 "wbr" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "wbK" = (
@@ -31065,7 +31560,7 @@
 /turf/open/floor/strata/orange_cover,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "wfm" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/marsh/center)
 "wfv" = (
@@ -31182,7 +31677,9 @@
 /turf/open/asphalt/cement/cement4,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
 "wnC" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/structure/machinery/space_heater,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/strata/ag/exterior/paths/south_outpost)
@@ -31498,7 +31995,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/ag/exterior/outpost_decks)
 "wKO" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "wLj" = (
@@ -31545,7 +32042,9 @@
 /turf/open/asphalt/cement/cement9,
 /area/strata/ag/interior/outside/engineering/parts_storage_exterior)
 "wQu" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/lz_caves)
 "wQx" = (
@@ -31787,7 +32286,9 @@
 /turf/open/floor/strata/floor2,
 /area/strata/ag/interior/outpost/med)
 "xlq" = (
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/crash)
 "xlF" = (
@@ -31808,7 +32309,7 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/admin1)
 "xmN" = (
-/obj/structure/platform_decoration/stone/strata/west,
+/obj/structure/platform_decoration/stone/kutjevo/west,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -31890,7 +32391,7 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/admin3)
 "xtV" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/structure/platform/metal/strata/west,
@@ -32061,7 +32562,9 @@
 /area/strata/ag/interior/mining_outpost/hive)
 "xEl" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -32114,7 +32617,7 @@
 /area/strata/ag/exterior/landing_zones/lz2)
 "xGI" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
 /area/strata/ag/exterior/paths/far_north_outpost)
@@ -32163,7 +32666,9 @@
 /turf/open/floor/strata,
 /area/strata/ag/exterior/outpost_decks)
 "xKt" = (
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/caves/shed_five_caves)
 "xKv" = (
@@ -32205,7 +32710,9 @@
 /turf/open/floor/strata,
 /area/strata/ug/interior/outpost/underground_dorms/sec1)
 "xLG" = (
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "xLH" = (
@@ -32232,8 +32739,10 @@
 "xME" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform_decoration/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "xMR" = (
@@ -32285,8 +32794,12 @@
 "xPz" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/center)
 "xPT" = (
@@ -32344,12 +32857,14 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/flight_control_exterior)
 "xSq" = (
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /obj/item/lightstick/red/planted,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/paths/south_outpost)
 "xSs" = (
-/obj/structure/platform/stone/strata/north,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
 /turf/open/gm/river,
@@ -32436,8 +32951,12 @@
 "xYk" = (
 /obj/effect/blocker/sorokyne_cold_water,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/river)
 "xYw" = (
@@ -32471,8 +32990,12 @@
 "xZF" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 4
+	},
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "yah" = (
@@ -32493,8 +33016,12 @@
 /area/strata/ag/interior/outside/checkpoints/outpost)
 "ybR" = (
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "ybS" = (
@@ -32519,9 +33046,15 @@
 "ycZ" = (
 /obj/effect/particle_effect/steam,
 /obj/effect/blocker/sorokyne_cold_water,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/gm/river,
 /area/strata/ag/exterior/marsh/spring_marshes)
 "yde" = (
@@ -32614,8 +33147,12 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/strata/ug/interior/jungle/platform/east)
 "yju" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
+/obj/structure/platform/stone/kutjevo/north{
+	dir = 2
+	},
+/obj/structure/platform/stone/kutjevo{
+	dir = 8
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/strata/ag/exterior/landing_zones/near_lz2)
 "yjA" = (
@@ -34181,7 +34718,7 @@ qvy
 bgS
 bgS
 ibP
-aac
+bTs
 oQv
 lJD
 wKO
@@ -36617,8 +37154,8 @@ bgk
 bgS
 bgS
 bgS
-aac
-aac
+bTs
+bTs
 bgS
 bgS
 bgS
@@ -42326,7 +42863,7 @@ bTs
 bTs
 bTs
 bTs
-aac
+bTs
 xdE
 xdE
 xdE
@@ -46026,8 +46563,8 @@ aJW
 bbj
 bbj
 bbj
-aac
-aac
+bTs
+bTs
 bbj
 bbj
 bbj
@@ -46064,8 +46601,8 @@ bTs
 bTs
 bgI
 bfc
-aac
-aac
+bTs
+bTs
 bfd
 bfd
 bfd
@@ -46200,14 +46737,14 @@ ihE
 eAz
 hEB
 eAz
-aac
-aac
-aac
+bTs
+bTs
+bTs
 aWy
 bbj
 vYf
 bbj
-aac
+bTs
 eAz
 eAz
 eAz
@@ -46381,8 +46918,8 @@ nZR
 jjJ
 bbj
 bbj
-aac
-aac
+bTs
+bTs
 gZP
 iLJ
 iLJ
@@ -46556,12 +47093,12 @@ cfX
 aIN
 bbj
 aKV
-aac
-aac
+bTs
+bTs
 oOB
 foN
 iLJ
-aac
+bTs
 aWy
 bbj
 bbj
@@ -46736,8 +47273,8 @@ nZR
 jjJ
 lzh
 iLJ
-aac
-aac
+bTs
+bTs
 bbj
 bbj
 bbj
@@ -46911,8 +47448,8 @@ aNT
 jjJ
 fBC
 iLJ
-aac
-aac
+bTs
+bTs
 bbj
 bbj
 iws
@@ -47086,9 +47623,9 @@ aNV
 aPu
 fBC
 iLJ
-aac
-aac
-aac
+bTs
+bTs
+bTs
 eAz
 eAz
 vsT
@@ -48803,10 +49340,10 @@ bTs
 bTs
 bDQ
 bNq
-aac
-aac
-aac
-aac
+bTs
+bTs
+bTs
+bTs
 aFV
 aFV
 aCu
@@ -48981,7 +49518,7 @@ hJT
 ayv
 ayw
 aHh
-aac
+bTs
 aCu
 aCu
 ayw
@@ -48992,7 +49529,7 @@ aHh
 aHh
 aHh
 aHh
-aac
+bTs
 jEO
 tGR
 cuP
@@ -49165,10 +49702,10 @@ ayw
 ayw
 aHh
 aGa
-aac
-aac
-aac
-aac
+bTs
+bTs
+bTs
+bTs
 cuP
 ccc
 pil
@@ -49340,7 +49877,7 @@ ayw
 ayw
 aHh
 aGb
-aac
+bTs
 aHh
 aHh
 ufG
@@ -49542,9 +50079,9 @@ blb
 aYw
 lfC
 blb
-aac
-aac
-aac
+bTs
+bTs
+bTs
 boO
 bsl
 buU
@@ -49866,8 +50403,8 @@ ayX
 ayw
 aHh
 aHh
-aac
-aac
+bTs
+bTs
 aHv
 oBn
 aHv
@@ -50760,7 +51297,7 @@ aMZ
 vYk
 aPC
 aQR
-aac
+bTs
 aTy
 aUN
 aUN
@@ -50935,7 +51472,7 @@ aMZ
 vYk
 aPC
 aQZ
-aac
+bTs
 aTz
 bfz
 aYw
@@ -50969,9 +51506,9 @@ cuP
 xpK
 pWR
 dFV
-aac
-aac
-aac
+bTs
+bTs
+bTs
 qow
 boi
 bnC
@@ -51063,13 +51600,13 @@ fln
 qPl
 csk
 fln
-aac
-aac
+bTs
+bTs
 dWm
 cjq
 vjR
 cdA
-aac
+bTs
 cdA
 bDU
 ccg
@@ -51110,8 +51647,8 @@ aMX
 vYk
 aPC
 aRa
-aac
-aac
+bTs
+bTs
 aUS
 aWK
 aUN
@@ -51146,7 +51683,7 @@ led
 xzq
 xnZ
 oxE
-aac
+bTs
 wnC
 bmJ
 bnC
@@ -51468,10 +52005,10 @@ pAS
 mzH
 bfy
 bfI
-aac
+bTs
 bli
 bpe
-aac
+bTs
 bvb
 byZ
 vlm
@@ -51643,10 +52180,10 @@ pAS
 mzH
 bfy
 bfJ
-aac
-aac
-aac
-aac
+bTs
+bTs
+bTs
+bTs
 bvc
 bza
 bCf
@@ -52655,7 +53192,7 @@ dWm
 dWm
 azT
 axk
-aac
+bTs
 aHh
 aHh
 aHh
@@ -52830,7 +53367,7 @@ eXK
 axk
 axk
 axk
-aac
+bTs
 aHh
 aHh
 ayw
@@ -53535,7 +54072,7 @@ ayw
 ayw
 ayw
 aHh
-aac
+bTs
 oKo
 oKo
 oKo
@@ -53710,9 +54247,9 @@ ayw
 ayw
 ayw
 aHh
-aac
-aac
-aac
+bTs
+bTs
+bTs
 ijo
 arv
 asy
@@ -53885,9 +54422,9 @@ ayw
 ayw
 ayw
 aHh
-aac
-aac
-aac
+bTs
+bTs
+bTs
 ijo
 bZD
 asz
@@ -54061,8 +54598,8 @@ ayw
 ayw
 aHh
 aHh
-aac
-aac
+bTs
+bTs
 ijo
 arw
 asA
@@ -54967,7 +55504,7 @@ bbV
 biH
 qnl
 bdv
-aac
+bTs
 bjb
 blY
 blX
@@ -54983,7 +55520,7 @@ cfp
 ckC
 cnx
 cnx
-aac
+bTs
 jJv
 bWZ
 ckG
@@ -55141,8 +55678,8 @@ mJB
 fpK
 biH
 aMc
-aac
-aac
+bTs
+bTs
 cik
 cgS
 blX
@@ -55157,8 +55694,8 @@ bCz
 cft
 ckE
 bCz
-aac
-aac
+bTs
+bTs
 jLY
 uII
 lIM
@@ -55512,7 +56049,7 @@ csQ
 csQ
 bzl
 ckH
-aac
+bTs
 vvB
 xlg
 wsi
@@ -55687,8 +56224,8 @@ gpO
 csQ
 bWZ
 ckG
-aac
-aac
+bTs
+bTs
 eSx
 flK
 eSx
@@ -56394,7 +56931,7 @@ jBO
 bCz
 bCz
 vOs
-aac
+bTs
 iEU
 unO
 qWc
@@ -56569,7 +57106,7 @@ cSP
 bzl
 wsm
 vOs
-aac
+bTs
 iEU
 iEU
 iEU
@@ -56744,8 +57281,8 @@ bsW
 bvz
 gvG
 vOs
-aac
-aac
+bTs
+bTs
 aad
 aad
 aad
@@ -56918,8 +57455,8 @@ bzl
 ckH
 bvz
 gUj
-aac
-aac
+bTs
+bTs
 wij
 wZZ
 htD
@@ -57414,9 +57951,9 @@ sbU
 aTW
 aVx
 aXa
-aac
-aac
-aac
+bTs
+bTs
+bTs
 dDM
 bCK
 bjl
@@ -57591,7 +58128,7 @@ coh
 aXc
 aYW
 bbv
-aac
+bTs
 eeS
 bCK
 bLo
@@ -57766,7 +58303,7 @@ coi
 aXd
 aZb
 bbw
-aac
+bTs
 eeS
 bCK
 bLo
@@ -58109,9 +58646,9 @@ aMn
 cke
 cke
 ckL
-aac
-aac
-aac
+bTs
+bTs
+bTs
 ckK
 cpd
 aZp
@@ -58285,7 +58822,7 @@ aHP
 jUZ
 xZC
 qza
-aac
+bTs
 cnp
 fRX
 cpe
@@ -58493,7 +59030,7 @@ bzl
 cSP
 bvz
 nai
-aac
+bTs
 srk
 wij
 wZZ
@@ -58668,7 +59205,7 @@ bvz
 bsW
 cfg
 wsm
-aac
+bTs
 srk
 wZZ
 wZZ
