@@ -148,6 +148,12 @@
 /obj/structure/platform_decoration/metal/kutjevo/east,
 /turf/open/floor/kutjevo/plate,
 /area/kutjevo/exterior/complex_border/med_rec)
+"aaN" = (
+/obj/effect/landmark/nightmare{
+	insert_tag = "clfsmugglers"
+	},
+/turf/closed/wall/kutjevo/rock,
+/area/kutjevo/interior/oob)
 "aaT" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
 	dir = 6
@@ -2769,7 +2775,7 @@
 /area/kutjevo/interior/power/comms)
 "dST" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
+/obj/item/weapon/gun/shotgun/double/with_stock,
 /turf/open/floor/kutjevo/tan,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "dTn" = (
@@ -4883,7 +4889,6 @@
 /obj/structure/machinery/bioprinter{
 	stored_metal = 1000
 	},
-/obj/item/clothing/glasses/thermal/syndi/kutjevo,
 /turf/open/floor/kutjevo/colors/cyan,
 /area/kutjevo/interior/complex/med/operating)
 "hnZ" = (
@@ -11495,7 +11500,8 @@
 /obj/item/clothing/glasses/thermal/syndi/kutjevo{
 	pixel_y = -2
 	},
-/turf/open/floor/kutjevo/multi_tiles/east)
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/kutjevo/interior/colony_south/power2)
 "rSg" = (
 /obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/floor/kutjevo/colors/green,
@@ -15404,6 +15410,10 @@
 "ybd" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/faxmachine,
+/obj/structure/sign/calendar{
+	pixel_y = 29;
+	pixel_x = 9
+	},
 /turf/open/floor/kutjevo/tan/alt_edge/north,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "ybh" = (
@@ -56048,7 +56058,7 @@ dxF
 dxF
 dxF
 dxF
-dxF
+aaQ
 dxF
 dxF
 dxF
@@ -58433,7 +58443,7 @@ lAI
 lAI
 lAI
 lAI
-lAI
+aaO
 lAI
 lAI
 lAI
@@ -60018,7 +60028,7 @@ ppX
 ppX
 hzN
 wXf
-jGF
+aaS
 dmy
 dmy
 dmy
@@ -60266,7 +60276,7 @@ wGH
 wGH
 prJ
 wGH
-wGH
+aaR
 wGH
 prJ
 wGH
@@ -83469,7 +83479,7 @@ bpj
 bpj
 bpj
 bpj
-bpj
+aaP
 bpj
 bpj
 bpj
