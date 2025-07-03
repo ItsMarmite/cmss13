@@ -5,7 +5,7 @@
 	name = "Survivor - PMC"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_PMC_STANDARD
-	rank = JOB_PMC_STANDARD
+	job_title = JOB_PMC_STANDARD
 	faction = FACTION_PMC
 	faction_group = list(FACTION_WY, FACTION_SURVIVOR, FACTION_PMC)
 	paygrades = list(PAY_SHORT_PMC_OP = JOB_PLAYTIME_TIER_0)
@@ -72,15 +72,17 @@
 	//storage items
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/metal/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/m4a3/wy/mod88_near_empty, WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/black(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/wy(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert/wy(new_human), WEAR_R_STORE)
+	add_pmc_survivor_weapon(new_human)
+	add_random_survivor_equipment(new_human)
 
 // /obj/effect/landmark/survivor_spawner/bigred_crashed_pmc_medic
 
 /datum/equipment_preset/survivor/pmc/medic
 	name = "Survivor - PMC Medic"
 	assignment = JOB_PMC_MEDIC
-	rank = JOB_PMC_MEDIC
+	job_title = JOB_PMC_MEDIC
 	paygrades = list(PAY_SHORT_PMC_MS = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "CM"
 	skills = /datum/skills/civilian/survivor/pmc/medic
@@ -108,7 +110,7 @@
 	//storage items
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/metal/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/m4a3/wy/mod88_near_empty, WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/black(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/wy(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert/wy(new_human), WEAR_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/device/defibrillator(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/firstaid/adv(new_human), WEAR_IN_BACK)
@@ -118,14 +120,15 @@
 		new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/health/prescription(new_human), WEAR_EYES)
 	else
 		new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/health(new_human), WEAR_EYES)
-	..()
+	add_pmc_survivor_weapon(new_human)
+	add_random_survivor_equipment(new_human)
 
 // /obj/effect/landmark/survivor_spawner/bigred_crashed_pmc_engineer
 
 /datum/equipment_preset/survivor/pmc/engineer
 	name = "Survivor - PMC Engineer"
 	assignment = JOB_PMC_ENGINEER
-	rank = JOB_PMC_ENGINEER
+	job_title = JOB_PMC_ENGINEER
 	paygrades = list(PAY_SHORT_PMC_TEC = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "TEC"
 	skills = /datum/skills/civilian/survivor/pmc/engineer
@@ -153,17 +156,19 @@
 	//storage items
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/metal/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/m4a3/wy/mod88_near_empty, WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/black(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/wy(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert/wy(new_human), WEAR_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/plasteel/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/utility/full(new_human), WEAR_R_HAND)
-	..()
+	add_pmc_survivor_weapon(new_human)
+	add_random_survivor_equipment(new_human)
+
 // /obj/effect/landmark/survivor_spawner/bigred_crashed_pmc_leader
 
 /datum/equipment_preset/survivor/pmc/pmc_leader
 	name = "Survivor - PMC Leader"
 	assignment = JOB_PMC_LEADER
-	rank = JOB_PMC_LEADER
+	job_title = JOB_PMC_LEADER
 	paygrades = list(PAY_SHORT_PMC_TL = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "SL"
 	skills = /datum/skills/civilian/survivor/pmc/lead
@@ -191,11 +196,12 @@
 	//storage items
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/metal/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/m4a3/wy/mod88_near_empty, WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/black(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/wy(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert/wy(new_human), WEAR_R_STORE)
 	//eyewear
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/sensor(new_human), WEAR_EYES)
-	..()
+	add_pmc_survivor_weapon(new_human)
+	add_random_survivor_equipment(new_human)
 
 // /obj/effect/landmark/survivor_spawner/bigred_crashed_cl
 
@@ -205,7 +211,7 @@
 	paygrades = list(PAY_SHORT_WYC6 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/civilian/survivor/manager
 	assignment = "Colony Supervisor"
-	rank = JOB_EXECUTIVE_SUPERVISOR
+	job_title = JOB_EXECUTIVE_SUPERVISOR
 	minimap_icon = "exec_super"
 	role_comm_title = "Supervisor"
 	idtype = /obj/item/card/id/silver/clearance_badge/manager
@@ -246,7 +252,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/manager(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/reagent_container/glass/beaker/vial/random/good(new_human), WEAR_IN_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert/wy(new_human), WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/black(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full/wy(new_human), WEAR_L_STORE)
 	add_pmc_survivor_weapon(new_human)
 	add_random_cl_survivor_loot(new_human)
 
@@ -273,10 +279,11 @@
 	skills = /datum/skills/synthetic
 	idtype = /obj/item/card/id/pmc
 	assignment = JOB_PMC_SYNTH
-	rank = JOB_PMC_SYNTH
+	job_title = JOB_PMC_SYNTH
 	paygrades = list(PAY_SHORT_SYN = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "WY Syn"
 	skills = /datum/skills/synthetic
+	preset_generation_support = FALSE
 	minimap_icon = "pmc_syn"
 	minimap_background = "background_pmc"
 
