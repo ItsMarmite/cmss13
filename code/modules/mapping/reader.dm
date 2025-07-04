@@ -924,7 +924,7 @@ GLOBAL_LIST_EMPTY(map_model_default)
 			area_instance = GLOB.areas_by_type[area_type]
 			// If the global list DOESN'T have this area it's either not a unique area, or it just hasn't been created yet
 			if (!area_instance)
-				area_instance = new area_type(null)
+				area_instance = new area_type()
 				if(!area_instance)
 					CRASH("[area_type] failed to be new'd, what'd you do?")
 			loaded_areas[area_type] = area_instance

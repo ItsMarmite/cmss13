@@ -148,12 +148,6 @@
 /obj/structure/platform_decoration/metal/kutjevo/east,
 /turf/open/floor/kutjevo/plate,
 /area/kutjevo/exterior/complex_border/med_rec)
-"aaN" = (
-/obj/effect/landmark/nightmare{
-	insert_tag = "clfsmugglers"
-	},
-/turf/closed/wall/kutjevo/rock,
-/area/kutjevo/interior/oob)
 "aaT" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
 	dir = 6
@@ -1803,7 +1797,7 @@
 /obj/structure/reagent_dispensers/watertank{
 	desc = "A watertank. The label has been written over with the sequence 2---"
 	},
-/turf/open/floor/kutjevo/tan/multi_tiles/north,
+/turf/open/asphalt/cement_sunbleached,
 /area/kutjevo/exterior/Northwest_Colony)
 "cvU" = (
 /obj/structure/platform/metal/kutjevo,
@@ -2775,7 +2769,7 @@
 /area/kutjevo/interior/power/comms)
 "dST" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/shotgun/double/with_stock,
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /turf/open/floor/kutjevo/tan,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "dTn" = (
@@ -4889,6 +4883,7 @@
 /obj/structure/machinery/bioprinter{
 	stored_metal = 1000
 	},
+/obj/item/clothing/glasses/thermal/syndi/kutjevo,
 /turf/open/floor/kutjevo/colors/cyan,
 /area/kutjevo/interior/complex/med/operating)
 "hnZ" = (
@@ -8538,6 +8533,9 @@
 "nnf" = (
 /turf/open/auto_turf/sand/layer2,
 /area/kutjevo/exterior/complex_border/botany_medical_cave)
+"nni" = (
+/turf/open/asphalt/cement_sunbleached,
+/area/kutjevo/interior/oob)
 "nnx" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 6;
@@ -11500,8 +11498,7 @@
 /obj/item/clothing/glasses/thermal/syndi/kutjevo{
 	pixel_y = -2
 	},
-/turf/open/floor/kutjevo/multi_tiles/east,
-/area/kutjevo/interior/colony_south/power2)
+/turf/open/floor/kutjevo/multi_tiles/east)
 "rSg" = (
 /obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/floor/kutjevo/colors/green,
@@ -15410,10 +15407,6 @@
 "ybd" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/faxmachine,
-/obj/structure/sign/calendar{
-	pixel_y = 29;
-	pixel_x = 9
-	},
 /turf/open/floor/kutjevo/tan/alt_edge/north,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "ybh" = (
@@ -56058,7 +56051,7 @@ dxF
 dxF
 dxF
 dxF
-aaQ
+dxF
 dxF
 dxF
 dxF
@@ -58443,7 +58436,7 @@ lAI
 lAI
 lAI
 lAI
-aaO
+lAI
 lAI
 lAI
 lAI
@@ -60028,7 +60021,7 @@ ppX
 ppX
 hzN
 wXf
-aaS
+jGF
 dmy
 dmy
 dmy
@@ -60276,7 +60269,7 @@ wGH
 wGH
 prJ
 wGH
-aaR
+wGH
 wGH
 prJ
 wGH
@@ -66703,8 +66696,8 @@ hrz
 kIn
 kIn
 sYd
-sYd
-sYd
+pEJ
+bEp
 bXl
 sYd
 sYd
@@ -66870,10 +66863,10 @@ bXl
 kIn
 kIn
 sYd
-sYd
-bXl
-kIn
-bXl
+bEp
+bEp
+bEp
+bEp
 bXl
 sYd
 pCS
@@ -67037,10 +67030,10 @@ bXl
 sYd
 sYd
 sYd
-pEJ
 bEp
-bEp
-bEp
+sYd
+sYd
+sYd
 sYd
 sYd
 pCS
@@ -67204,8 +67197,8 @@ kIn
 bXl
 aSu
 sYd
-bEp
-bEp
+sYd
+sYd
 kIn
 kIn
 kIn
@@ -67368,15 +67361,15 @@ dxF
 dxF
 dxF
 kIn
-bXl
 sYd
+pCS
+pCS
 sYd
-bEp
-kIn
-kIn
-sYd
-sYd
-sYd
+pCS
+pCS
+pCS
+pCS
+pCS
 pCS
 pCS
 pCS
@@ -67535,15 +67528,15 @@ dxF
 dxF
 dxF
 bXl
-sYd
-sYd
-bXl
-sYd
-kIn
-sYd
-sYd
-bXl
-sYd
+pCS
+pCS
+pCS
+pCS
+pCS
+pCS
+pCS
+pCS
+pCS
 mTV
 uML
 sYd
@@ -67702,15 +67695,15 @@ dxF
 dxF
 dxF
 bXl
+pCS
+pCS
+pCS
+pCS
+pCS
 bXl
 bXl
 bXl
-sYd
-sYd
-bXl
-bXl
-sYd
-sYd
+pCS
 pCS
 pCS
 pCS
@@ -67869,9 +67862,9 @@ dxF
 dxF
 dxF
 kIn
-bXl
-bXl
-sYd
+pCS
+pCS
+pCS
 jbM
 bNk
 bNk
@@ -68037,8 +68030,8 @@ dxF
 dxF
 kIn
 sYd
-sYd
-sYd
+pCS
+pCS
 cvU
 mYj
 lyJ
@@ -68204,8 +68197,8 @@ dxF
 dxF
 bXl
 sYd
-sYd
-sYd
+pCS
+pCS
 cvU
 iyP
 qVg
@@ -68370,9 +68363,9 @@ iin
 dxF
 dxF
 bXl
-sYd
-sYd
-sYd
+pCS
+pCS
+pCS
 cvU
 nzQ
 elo
@@ -68537,9 +68530,9 @@ iin
 dxF
 dxF
 dxF
-bXl
-bXl
-sYd
+pCS
+pCS
+pCS
 tdQ
 wzY
 wcr
@@ -68704,9 +68697,9 @@ sVF
 dxF
 dxF
 dxF
-dxF
-sYd
-bXl
+nni
+pCS
+pCS
 bXl
 bXl
 wcr
@@ -68871,9 +68864,9 @@ hrz
 hrz
 dxF
 rzh
-dxF
-kIn
-bXl
+nni
+pCS
+pCS
 bXl
 bXl
 wcr
@@ -69038,9 +69031,9 @@ hrz
 sVF
 mar
 rzh
-iXD
-kIn
-sYd
+pCS
+pCS
+pCS
 jbM
 bNk
 wcr
@@ -69200,14 +69193,14 @@ mfD
 sVF
 hrz
 hrz
-hrz
-hrz
-sVF
-mar
-ggC
-iXD
-bXl
-sYd
+huR
+huR
+huR
+huR
+huR
+pCS
+pCS
+pCS
 cvU
 mYj
 lyJ
@@ -69366,15 +69359,15 @@ jhS
 sVF
 mLt
 hrz
-hrz
-sVF
-sVF
-sVF
+huR
+huR
+huR
+huR
 cvF
-ggC
-iXD
-bXl
-sYd
+huR
+pCS
+pCS
+pCS
 cvU
 iyP
 qVg
@@ -69533,15 +69526,15 @@ lvR
 kuB
 sVF
 hrz
-hrz
-hrz
-sVF
-sVF
-mar
-ggC
-iXD
-sYd
-sYd
+huR
+huR
+huR
+huR
+huR
+huR
+pCS
+pCS
+bXl
 cvU
 nzQ
 elo
@@ -69700,15 +69693,15 @@ oiJ
 nLM
 sVF
 hrz
+huR
+huR
+huR
 hrz
-sVF
-sVF
-sVF
-mar
-pkP
-iXD
-sYd
-sYd
+huR
+huR
+bXl
+bXl
+bXl
 wBI
 wzY
 wzY
@@ -69868,8 +69861,8 @@ fbG
 sVF
 hrz
 hrz
-sVF
-sVF
+huR
+huR
 sVF
 dTn
 ggC
@@ -70035,8 +70028,8 @@ lvR
 hrz
 hrz
 hrz
-hrz
-hrz
+huR
+huR
 hrz
 bwt
 ggC
@@ -70201,9 +70194,9 @@ jhS
 hrz
 hrz
 hrz
-hrz
-hrz
-hrz
+huR
+huR
+huR
 hrz
 mar
 ggC
@@ -70368,9 +70361,9 @@ dxF
 iin
 sVF
 sVF
-hrz
-hrz
-sVF
+huR
+huR
+huR
 hrz
 mar
 pkP
@@ -70535,9 +70528,9 @@ dxF
 dxF
 dxF
 sVF
-sVF
-hrz
-sVF
+huR
+huR
+huR
 iin
 dxF
 xgl
@@ -70702,9 +70695,9 @@ dxF
 dxF
 dxF
 iin
-hrz
-hrz
-iin
+huR
+huR
+huR
 dxF
 dxF
 kkH
@@ -83479,7 +83472,7 @@ bpj
 bpj
 bpj
 bpj
-aaP
+bpj
 bpj
 bpj
 bpj
