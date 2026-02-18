@@ -9784,6 +9784,9 @@
 /obj/structure/flora/jungle/vines/light_3,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_west_jungle)
+"aYl" = (
+/turf/open/floor/plating/asteroidwarning/northwest,
+/area/lv624/lazarus/landing_zones/lz2)
 "aYm" = (
 /obj/structure/flora/jungle/vines/heavy{
 	pixel_y = 24
@@ -20028,10 +20031,10 @@
 /turf/open/floor/warningcorner/north,
 /area/lv624/lazarus/landing_zones/lz1)
 "uZz" = (
-/obj/structure/surface/table/holotable,
 /obj/structure/machinery/computer/objective{
 	dir = 5
 	},
+/obj/structure/surface/table,
 /turf/open/floor/whitepurple/northeast,
 /area/lv624/lazarus/research)
 "vam" = (
@@ -27994,7 +27997,7 @@ pKm
 aAp
 nmO
 agy
-aOB
+aYl
 uzH
 uzH
 uzH
